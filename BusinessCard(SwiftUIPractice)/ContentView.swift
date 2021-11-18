@@ -12,16 +12,25 @@ struct ContentView: View {
         ZStack{
                     Color.black.edgesIgnoringSafeArea(.all)
             VStack {
+                Image("Mai")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 150.0, height: 200.0)
                 Text("Mapplepie")
                             .font(Font.custom("Merkur", size: 40))
                             .bold()
                             .foregroundColor(.white)
                         .padding()
                 Text("iOS Developer")
-                
+                    .font(Font.custom("UglyByte-Regular", size: 37))
                     .foregroundColor(.white)
+                Divider()
+                InfoView(text: "123-456-789", imageName: "phone.fill")
+                InfoView(text: "linkInBio@bio.com", imageName: "envelop.fill")
+                
 
             }
+            
                               
             }
         }
@@ -32,3 +41,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

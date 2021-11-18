@@ -13,6 +13,8 @@
 		123CC1B927463855005F53A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123CC1B827463855005F53A6 /* Preview Assets.xcassets */; };
 		123CC1C127463CC2005F53A6 /* Merkur-j147.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 123CC1C027463CC2005F53A6 /* Merkur-j147.ttf */; };
 		123CC1C52746415E005F53A6 /* BusinessCard-SwiftUIPractice--Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 123CC1C427463E06005F53A6 /* BusinessCard-SwiftUIPractice--Info.plist */; };
+		123CC2112746583B005F53A6 /* UglyByteFreeTrial-K7EBZ.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 123CC2102746583B005F53A6 /* UglyByteFreeTrial-K7EBZ.ttf */; };
+		128B1DB72746653200000706 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B1DB62746653100000706 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		123CC1B827463855005F53A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		123CC1C027463CC2005F53A6 /* Merkur-j147.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merkur-j147.ttf"; sourceTree = "<group>"; };
 		123CC1C427463E06005F53A6 /* BusinessCard-SwiftUIPractice--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BusinessCard-SwiftUIPractice--Info.plist"; sourceTree = SOURCE_ROOT; };
+		123CC2102746583B005F53A6 /* UglyByteFreeTrial-K7EBZ.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UglyByteFreeTrial-K7EBZ.ttf"; sourceTree = "<group>"; };
+		128B1DB62746653100000706 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 				123CC1BF27463C2A005F53A6 /* Fonts */,
 				123CC1B127463850005F53A6 /* BusinessCard_SwiftUIPractice_App.swift */,
 				123CC1B327463850005F53A6 /* ContentView.swift */,
+				128B1DB62746653100000706 /* InfoView.swift */,
 				123CC1B527463855005F53A6 /* Assets.xcassets */,
 				123CC1B727463855005F53A6 /* Preview Content */,
 			);
@@ -76,6 +81,7 @@
 		123CC1BF27463C2A005F53A6 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				123CC2102746583B005F53A6 /* UglyByteFreeTrial-K7EBZ.ttf */,
 				123CC1C027463CC2005F53A6 /* Merkur-j147.ttf */,
 			);
 			path = Fonts;
@@ -142,6 +148,7 @@
 				123CC1B927463855005F53A6 /* Preview Assets.xcassets in Resources */,
 				123CC1C52746415E005F53A6 /* BusinessCard-SwiftUIPractice--Info.plist in Resources */,
 				123CC1C127463CC2005F53A6 /* Merkur-j147.ttf in Resources */,
+				123CC2112746583B005F53A6 /* UglyByteFreeTrial-K7EBZ.ttf in Resources */,
 				123CC1B627463855005F53A6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				123CC1B427463850005F53A6 /* ContentView.swift in Sources */,
+				128B1DB72746653200000706 /* InfoView.swift in Sources */,
 				123CC1B227463850005F53A6 /* BusinessCard_SwiftUIPractice_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
